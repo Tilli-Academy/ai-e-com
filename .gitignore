@@ -1,0 +1,36 @@
+# ---- Python / Django (backend) ----
+backend/venv/
+__pycache__/
+*.py[cod]
+*.sqlite3
+backend/db.sqlite3
+backend/media/
+backend/staticfiles/
+backend/backups/
+
+# Secrets — never commit real environment files
+.env
+backend/.env
+
+# ---- Node / React (frontend) ----
+frontend/node_modules/
+frontend/build/
+frontend/dist/
+frontend/.env
+npm-debug.log*
+
+# ---- Editor / OS noise ----
+.vscode/
+.idea/
+.DS_Store
+
+# Python virtual environments
+venv/
+.venv/
+backend/venv/
+backend/.venv/
+
+# Other local files
+*.db
+.pytest_cache/
+.coverage

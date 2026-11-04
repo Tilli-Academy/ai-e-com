@@ -1,0 +1,23 @@
+# Core web framework
+Django==5.1.4
+
+# REST API toolkit for Django
+djangorestframework==3.15.2
+
+# JWT (token-based) authentication for DRF
+djangorestframework-simplejwt==5.3.1
+
+# Allow the React frontend (different origin) to call the API
+django-cors-headers==4.6.0
+
+# Read configuration/secrets from a .env file instead of hardcoding them
+python-decouple==3.8
+
+# Image handling for product photos (ImageField support)
+Pillow==11.0.0
+
+# Powerful filtering backend for list endpoints (search/filter in Phase 3)
+django-filter==24.3
+
+# HTTP client used to talk to the local Ollama LLM server (Phase 6)
+requests==2.32.3
